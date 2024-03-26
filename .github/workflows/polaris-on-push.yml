@@ -25,5 +25,5 @@ jobs:
           polaris_project_name: "apim-apps"
           
           ### PULL REQUEST COMMENTS: Uncomment below to enable
-          # polaris_prComment_enabled: true 
-          # github_token: ${{ secrets.GITHUB_TOKEN }} # Required when PR comments is enabled
+          polaris_prComment_enabled: true 
+          github_token: ${{ secrets.TOKEN }} # Required when PR comments is enabled
